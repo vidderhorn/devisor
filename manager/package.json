@@ -1,6 +1,6 @@
 {
   "name": "@devisor/manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compiles your TS app and restarts when files are modified.",
   "keywords": [
     "restart",
@@ -43,7 +43,7 @@
     "build": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
-    "@devisor/restarter": "^1.0.0",
+    "@devisor/restarter": "^1.0.1",
     "chokidar": "^3.4.0",
     "dateformat": "~1.0.4-1.2.3",
     "dynamic-dedupe": "^0.3.0",

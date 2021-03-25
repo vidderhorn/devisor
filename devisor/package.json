@@ -1,6 +1,6 @@
 {
   "name": "devisor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": "bin/devisor",
   "license": "Apache-2.0",
   "description": "live-reload for node-based services",
@@ -15,7 +15,7 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "@devisor/supervisor": "1.0.0",
+    "@devisor/supervisor": "^1.0.1",
     "death": "^1.1.0",
     "ezop": "^1.0.0"
   },
