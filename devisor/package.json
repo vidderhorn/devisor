@@ -1,0 +1,25 @@
+{
+  "name": "devisor",
+  "version": "1.0.0",
+  "bin": "bin/devisor",
+  "license": "Apache-2.0",
+  "description": "live-reload for node-based services",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/vidderhorn/devisor.git"
+  },
+  "devDependencies": {
+    "@types/death": "^1.1.1",
+    "@types/node": "^14.14.7",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@devisor/supervisor": "1.0.0",
+    "death": "^1.1.0",
+    "ezop": "^1.0.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}

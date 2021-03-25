@@ -1,0 +1,17 @@
+{
+  "name": "@devisor/restarter",
+  "version": "1.0.0",
+  "license": "Apache-2.0",  
+  "description": "devisor's restart logic",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/vidderhorn/devisor.git"
+  },
+  "main": "lib/restarter.js",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}

@@ -1,0 +1,3 @@
+#!/bin/sh
+DEVISOR_BIN=$(dirname $(readlink -f $BASH_SOURCE))
+node $DEVISOR_BIN/../lib/devisor.js "$@"

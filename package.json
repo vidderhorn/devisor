@@ -1,0 +1,9 @@
+{
+  "name": "@devisor/workspace",
+  "version": "1.0.0",
+  "private": true,
+  "main": "lib/index.js",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
