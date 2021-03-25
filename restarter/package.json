@@ -7,11 +7,15 @@
     "type": "git",
     "url": "http://github.com/vidderhorn/devisor.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "lib/restarter.js",
   "devDependencies": {
     "typescript": "^3.9.7"
   },
   "scripts": {
     "build": "tsc"
-  }
+  },
+  "gitHead": "0177a18b2f75550cb1227b2efdbeeecb40fe1a61"
 }

@@ -8,6 +8,9 @@
     "url": "http://github.com/vidderhorn/devisor.git"
   },
   "main": "lib/supervisor.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@types/node": "^14.14.7",
     "ts-node": "^9.0.0",
@@ -20,5 +23,6 @@
   },
   "scripts": {
     "build": "tsc"
-  }
+  },
+  "gitHead": "0177a18b2f75550cb1227b2efdbeeecb40fe1a61"
 }
